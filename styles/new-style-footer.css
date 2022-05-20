@@ -1,0 +1,62 @@
+.footer h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.footer .footer-content {
+	display: flex;
+	width: 100%;
+	flex-flow: column;
+}
+
+.footer .footer-content.row {
+	display: flex;
+	flex-flow: row;
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.footer .footer-content.row .big-text {
+	font-size: 10em;
+	font-weight: 100;
+	line-height: 100%;
+}
+
+.footer .footer-content.row .small-text {
+	text-align: justify;
+}
+
+.footer .footer-content.col p {
+	color: darksalmon;
+	text-align: center;
+}
+
+.footer h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.footer .tag a {
+	word-wrap: break-word;
+}
+
+.footer img {
+	width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+.footer a {
+	color: red;
+	border-bottom-color: red;
+}
+
+@media only screen and (min-width: 768px) {
+	.footer .footer-content.col p {
+		text-align: start;
+	}
+}
